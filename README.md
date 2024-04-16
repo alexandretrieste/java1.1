@@ -59,4 +59,4 @@ Este projeto está licenciado sob a licença MIT: [https://choosealicense.com/li
 
 ## Contato
 
-Se você tiver alguma dúvida ou sugestão, entre em contato comigo no [GitHub](https://github.com/alexandretrieste)].
+Se você tiver alguma dúvida ou sugestão, entre em contato comigo no [GitHub](https://github.com/alexandretrieste).
