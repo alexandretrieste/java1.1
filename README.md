@@ -14,14 +14,14 @@ Para executar o projeto, você precisará ter o Java instalado em seu computador
 2. Abra um terminal e navegue até o diretório do projeto.
 3. Execute o seguinte comando:
 
-```
+```java
 javac *.java
 java Teste
 ```
 
 ## Exemplo de Execução
 
-```
+```java
 Informações dos Veículos:
 ------------------
 Marca: Fiat
@@ -55,7 +55,7 @@ Se você quiser contribuir com o projeto, siga estas etapas:
 
 ## Licença
 
-Este projeto está licenciado sob a licença MIT: [https://choosealicense.com/licenses/mit/](https://choosealicense.com/licenses/mit/).
+Este projeto está licenciado sob a [licença MIT]:(https://choosealicense.com/licenses/mit/).
 
 ## Contato
 
