@@ -8,19 +8,15 @@ package com.alexandretrieste.atividade1;
  *
  * @author xande
  */
+// Classe Motor
 public class Motor {
-
     private int potencia;
-    private String tipo;
+    private int qtdPista;
 
+    // Construtor default
     public Motor() {
         this.potencia = 0;
-        this.tipo = "";
-    }
-
-    public Motor(int potencia, String tipo) {
-        this.potencia = potencia;
-        this.tipo = tipo;
+        this.qtdPista = 0;
     }
 
     public int getPotencia() {
@@ -31,12 +27,11 @@ public class Motor {
         this.potencia = potencia;
     }
 
-    public String getTipo() {
-        return tipo;
+    public int getQtdPista() {
+        return qtdPista;
     }
 
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
+    public void setQtdPista(int qtdPista) {
+        this.qtdPista = qtdPista;
     }
 }
-

@@ -8,28 +8,33 @@ package com.alexandretrieste.atividade1;
  *
  * @author xande
  */
+// Classe Veículo
 public class Veiculo {
-
+    private String placa;
     private String marca;
     private String modelo;
-    private String placa;
-    private int ano;
+    private String cor;
+    private float velocMax;
+    private int qtdRodas;
     private Motor motor;
 
+    // Construtor default
     public Veiculo() {
+        this.placa = "";
         this.marca = "";
         this.modelo = "";
-        this.placa = "";
-        this.ano = 0;
+        this.cor = "";
+        this.velocMax = 0.0f;
+        this.qtdRodas = 0;
         this.motor = new Motor();
     }
 
-    public Veiculo(String marca, String modelo, String placa, int ano, Motor motor) {
-        this.marca = marca;
-        this.modelo = modelo;
+    public String getPlaca() {
+        return placa;
+    }
+
+    public void setPlaca(String placa) {
         this.placa = placa;
-        this.ano = ano;
-        this.motor = motor;
     }
 
     public String getMarca() {
@@ -48,20 +53,28 @@ public class Veiculo {
         this.modelo = modelo;
     }
 
-    public String getPlaca() {
-        return placa;
+    public String getCor() {
+        return cor;
     }
 
-    public void setPlaca(String placa) {
-        this.placa = placa;
+    public void setCor(String cor) {
+        this.cor = cor;
     }
 
-    public int getAno() {
-        return ano;
+    public float getVelocMax() {
+        return velocMax;
     }
 
-    public void setAno(int ano) {
-        this.ano = ano;
+    public void setVelocMax(float velocMax) {
+        this.velocMax = velocMax;
+    }
+
+    public int getQtdRodas() {
+        return qtdRodas;
+    }
+
+    public void setQtdRodas(int qtdRodas) {
+        this.qtdRodas = qtdRodas;
     }
 
     public Motor getMotor() {
@@ -72,4 +85,3 @@ public class Veiculo {
         this.motor = motor;
     }
 }
-
